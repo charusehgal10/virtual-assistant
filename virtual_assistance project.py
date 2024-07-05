@@ -40,7 +40,7 @@ def operation(text):
         print("playing...")
       
       
-    elif"current date and time"in text:
+    elif"time"in text:
       current_datetime = datetime.datetime.now()
       print(current_datetime)
       speak(f"Current Date and Time is {current_datetime}")
@@ -64,9 +64,6 @@ def operation(text):
           speak(p.title)
           print(p.title)
       
-      
-      
-     
       
 if __name__=="__main__":
     try:
